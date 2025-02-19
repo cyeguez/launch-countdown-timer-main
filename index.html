@@ -14,16 +14,6 @@
 
     <title>Frontend Mentor | Launch countdown timer</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,16 +21,36 @@
       href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
       rel="stylesheet"
     />
+    <!-- Style CSS  -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    We're launching soon Days Hours Minutes Seconds
+  <body class="red-hat-text-700">
+    <section class="countDown">
+      <h1 class="title">We're launching soon Days Hours Minutes Seconds</h1>
+      <div class="container">
+        <div class="box">
+          <div class="day">08</div>
+          <p>Days</p>
+        </div>
+        <div class="box">
+          <div class="hour">23</div>
+          <p>Hours</p>
+        </div>
+        <div class="box">
+          <div class="minute">55</div>
+          <p>Minutes</p>
+        </div>
+        <div class="box">
+          <div class="second">08</div>
+          <p>Seconds</p>
+        </div>
+      </div>
+    </section>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    <footer>
+      <img src="./images/icon-facebook.svg" alt="icon-facebook" />
+      <img src="./images/icon-pinterest.svg" alt="icon-pinterest" />
+      <img src="./images/icon-instagram.svg" alt="icon-instagram" />
+    </footer>
   </body>
 </html>

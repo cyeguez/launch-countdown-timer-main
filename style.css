@@ -18,3 +18,48 @@
   font-weight: 700;
   font-style: normal;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.red-hat-text-700 {
+    min-width: 320px;
+    background-image: url("./images/bg-stars.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.countDown {
+}
+.title {
+}
+.box {
+}
+.day {
+}
+.hour {
+}
+.minute {
+}
+.second {
+}
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                   Footer                                   */
+/* -------------------------------------------------------------------------- */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
